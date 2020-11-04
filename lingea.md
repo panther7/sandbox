@@ -4,6 +4,7 @@
 * *Source*: Surový text na stránce, který je následně rozložen na jednotlivé uzly (`nodes`)
 * *Parsed*: Již rozebraný text, rozdělen na virtuální uzly, pro správné složení do původního HTML stromu
 * *Translated*: To co mi vrátí backend (Lingea)
+* *Expected*: Očekávaný výsledek
 
 #### Test page
 * [test-translator][1]
@@ -47,9 +48,7 @@
 1: hladový pes  
 4: .  
 
-#### Problem
-Zvláštní proházení. Id-1 je link na psa, ale má tam být `Otevřenými`. Jednodlivé bloky by se neměli rozdělovat, když už k prohazování dochází, tak po jednotlivých celcích. Chtělo by to najít vícero příkladu, kde takovým večem dochází a porovnat například s Google překaldačem.  
-Očekávaný výsledek:
+#### Expected
 ```xml
 <span id="3">Otevřenými dveřmi</span> <span id="2"> proběhl </span> <span id="1">hladový pes</span><span id="4">.</span>
 ```
@@ -57,7 +56,11 @@ Očekávaný výsledek:
 3: Otevřenými dveřmi   
 2: proběhl    
 1: hladový pes    
-4: .   
+4: .  
+
+Zvláštní proházení. Id-1 je link na psa, ale má tam být `Otevřenými`. Jednodlivé bloky by se neměli rozdělovat, když už k prohazování dochází, tak po jednotlivých celcích. Chtělo by to najít vícero příkladu, kde takovým večem dochází a porovnat například s Google překaldačem.  
+Očekávaný výsledek:
+  
 
 
 ## Issue 2
@@ -92,8 +95,8 @@ Očekávaný výsledek:
 
 ---
 
-#### Problem
-Rozdělení jednoduché věty, očekávaný výsledek:
+#### Expected
+Rozdělení jednoduché věty
 ```xml
 <span id="1">Otevřenými dveřmi proběhl hladový pes.</span>
 ```
