@@ -7,10 +7,10 @@
 </p>
 ```
 
-1: <a href="https://google.com/search?q=hungry+dog">Hungry dog</a>
-2:  ran through the 
-3: <a href="https://google.com/search?q=opened+door">opened door</a>
-4: .
+1: <a href="https://google.com/search?q=hungry+dog">Hungry dog</a>  
+2:  ran through the   
+3: <a href="https://google.com/search?q=opened+door">opened door</a>  
+4: .  
 
 ---
 
@@ -19,10 +19,10 @@
 <span id="1">Hungry dog</span><span id="2"> ran through the </span><span id="3">opened door</span><span id="4">.</span>
 ```
 
-1: Hungry dog
-2: ran through the
-3: opened door
-4: .
+1: Hungry dog  
+2: ran through the  
+3: opened door  
+4: .  
 
 ---
 
@@ -31,11 +31,11 @@
 <span id="1">Otevřenými</span> <span id="3">dveřmi</span> <span id="2"> proběhl </span> <span id="1">hladový pes</span><span id="4">.</span>
 ```
 
-1: Otevřenými
-3: dveřmi
-2: proběhl
-1: hladový pes
-4: .
+1: Otevřenými  
+3: dveřmi  
+2: proběhl  
+1: hladový pes  
+4: .  
 
 
 ### Example 2
@@ -65,5 +65,5 @@
 <span id="1">Otevřenými dveřmi proběhl</span> <span id="1">hladový pes.</span>
 ```
 
-1: Otevřenými dveřmi proběhl
-1: hladový pes.
+1: Otevřenými dveřmi proběhl  
+1: hladový pes.  
