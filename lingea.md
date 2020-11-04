@@ -1,3 +1,13 @@
+## Issue List
+
+#### Legend
+* *Source*: Surový text na stránce, který je následně rozložen na jednotlivé uzly (`nodes`)
+* *Parsed*: Již rozebraný text, rozdělen na virtuální uzly, pro správné složení do původního HTML stromu
+* *Translated*: To co mi vrátí backend (Lingea)
+
+#### Test page
+* [test-translator][1]
+
 ## Issue 1
 
 #### Source
@@ -89,5 +99,4 @@ Rozdělení jednoduché věty, očekávaný výsledek:
 ```
 
 
-## Test page
-* https://www.mosfil.cz/sbrowser/test-translator/
+[1]: https://www.mosfil.cz/sbrowser/test-translator/
