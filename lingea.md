@@ -1,4 +1,4 @@
-### Issue 1
+## Issue 1
 
 #### Source
 ```xml
@@ -50,7 +50,7 @@ Očekávaný výsledek:
 4: .   
 
 
-### Issue 2
+## Issue 2
 
 #### Source
 ```xml
@@ -89,5 +89,5 @@ Rozdělení jednoduché věty, očekávaný výsledek:
 ```
 
 
-### Test page
+## Test page
 * https://www.mosfil.cz/sbrowser/test-translator/
