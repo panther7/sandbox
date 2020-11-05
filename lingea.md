@@ -102,4 +102,45 @@ Rozdělení jednoduché věty
 ```
 
 
+
+## Issue 3
+
+#### Source
+```xml
+<p>
+  USA Election
+</p>
+```
+
+1: USA Election
+
+---
+
+#### Parsed
+```xml
+<span id="1">USA Election</span>
+```
+
+1: USA Election.
+
+---
+
+#### Translated
+```xml
+<span id="1">Volby</span> <span id="1">V USA</span>
+```
+
+1: Volby   
+1: V USA 
+
+---
+
+#### Expected
+Rozdělení jednoduché věty, navíc velké `V`
+```xml
+<span id="1">Volby v USA</span>
+// nebo
+<span id="1">Americké volby</span>
+```
+
 [1]: https://www.mosfil.cz/sbrowser/test-translator/
