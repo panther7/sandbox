@@ -118,10 +118,10 @@ Rozdělení jednoduché věty
 
 #### Parsed
 ```xml
-<span id="1">USA Election</span>
+<span id="1">US Election</span>
 ```
 
-1: USA Election.
+1: US Election.
 
 ---
 
